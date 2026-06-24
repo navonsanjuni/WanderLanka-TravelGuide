@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "Sigiriya Rock Fortress",
+        "category": "Historical",
+        "description": "Ancient palace and fortress complex with significant archaeological importance, famous for its frescoes and the Lion Gate.",
+        "image": "https://images.unsplash.com/photo-1588614959060-4d144f28b207?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "lat": 7.9570,
+        "lng": 80.7603
+    },
+    {
+        "id": "2",
+        "name": "Yala National Park",
+        "category": "Nature",
+        "description": "Famous for its high density of leopards, Yala offers a diverse range of wildlife and ecosystems, from moist monsoon forests to marine wetlands.",
+        "image": "https://images.unsplash.com/photo-1549471013-3364d7320f32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "lat": 6.3683,
+        "lng": 81.5173
+    },
+    {
+        "id": "3",
+        "name": "Temple of the Sacred Tooth Relic",
+        "category": "Historical",
+        "description": "A Buddhist temple in the city of Kandy. It is located in the royal palace complex of the former Kingdom of Kandy, which houses the relic of the tooth of the Buddha.",
+        "image": "https://images.unsplash.com/photo-1625736417770-b7dc44d2d6ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "lat": 7.2936,
+        "lng": 80.6413
+    },
+    {
+        "id": "4",
+        "name": "Galle Face Hotel",
+        "category": "Hotels",
+        "description": "Iconic historic hotel in Colombo, situated on the seafront. Known for its colonial charm and beautiful sunset views.",
+        "image": "https://images.unsplash.com/photo-1560347876-aeef00ee58a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "lat": 6.9197,
+        "lng": 79.8454
+    },
+    {
+        "id": "5",
+        "name": "Nine Arches Bridge",
+        "category": "Historical",
+        "description": "A spectacular colonial-era railway bridge located in Demodara, near Ella. Built entirely of brick, rock, and cement without steel.",
+        "image": "https://images.unsplash.com/photo-1546708770-5895bb668d29?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "lat": 6.8767,
+        "lng": 80.0632
+    },
+    {
+        "id": "6",
+        "name": "Horton Plains",
+        "category": "Nature",
+        "description": "A protected area in the central highlands of Sri Lanka covered by montane grassland and cloud forest. Home to World's End.",
+        "image": "https://images.unsplash.com/photo-1526649661456-89b527d82597?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "lat": 6.8016,
+        "lng": 80.8060
+    }
+]
