@@ -43,12 +43,12 @@ export const renderHomePage = () => {
         const hero = createEl('div', { className: 'hero-container' });
         hero.innerHTML = `
             <div class="hero-content">
-                <span class="trending-badge">Trending Destination</span>
-                <h1 class="hero-title">Find Your Next<br>Wild Path.</h1>
-                <p class="hero-desc">Experience the hidden wonders of the world with curated maps, local insight, and high-fidelity navigation designed for the modern explorer.</p>
+                <span class="trending-badge">Little England of Sri Lanka</span>
+                <h1 class="hero-title">Explore Misty<br>Nuwara Eliya.</h1>
+                <p class="hero-desc">Experience the breathtaking tea gardens, historic colonial estates, and roaring waterfalls with curated local maps, real-time distance tracking, and offline navigation.</p>
                 <div class="hero-actions">
                     <a href="#/map" class="btn-primary">Start Exploring</a>
-                    <a href="#/profile" class="btn-secondary">View Guide</a>
+                    <a href="#/profile" class="btn-secondary">Set Location</a>
                 </div>
             </div>
         `;

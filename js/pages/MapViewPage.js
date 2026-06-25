@@ -43,8 +43,8 @@ export const renderMapViewPage = () => {
 
     const initMap = () => {
         const userLocation = state.get('userLocation');
-        const defaultCenter = userLocation ? [userLocation.lat, userLocation.lng] : [7.8731, 80.7718]; // Sri Lanka center
-        const defaultZoom = userLocation ? 10 : 8;
+        const defaultCenter = userLocation ? [userLocation.lat, userLocation.lng] : [6.9687, 80.7872]; // Nuwara Eliya center
+        const defaultZoom = userLocation ? 13 : 13;
 
         // Initialize Leaflet Map
         mapInstance = L.map('leaflet-map', {

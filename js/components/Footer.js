@@ -8,7 +8,7 @@ export const Footer = () => {
     footer.innerHTML = `
         <div class="footer-top">
             <div class="footer-brand">
-                <span class="footer-brand-title">Wander Lanka</span>
+                <span class="footer-brand-title">Nuwara Explorer</span>
                 <p class="footer-desc">Explore the beauty of the world. Your premium travel guide to hidden paths and curated maps.</p>
             </div>
             <div class="footer-links">
@@ -26,7 +26,7 @@ export const Footer = () => {
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; ${new Date().getFullYear()} Wander Lanka. All rights reserved.</p>
+            <p>&copy; ${new Date().getFullYear()} Nuwara Explorer. All rights reserved.</p>
             <div class="footer-bottom-links">
                 <a href="#/profile" class="footer-bottom-link">Privacy</a>
                 <a href="#/profile" class="footer-bottom-link">Terms</a>

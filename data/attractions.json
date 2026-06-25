@@ -1,56 +1,92 @@
 [
     {
         "id": "1",
-        "name": "Sigiriya Rock Fortress",
-        "category": "Historical",
-        "description": "Ancient palace and fortress complex with significant archaeological importance, famous for its frescoes and the Lion Gate.",
-        "image": "https://images.unsplash.com/photo-1588614959060-4d144f28b207?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "lat": 7.9570,
-        "lng": 80.7603
+        "name": "Gregory Lake",
+        "category": "Nature",
+        "description": "A scenic lake in the heart of Nuwara Eliya, perfect for boating, pony rides, picnics, and leisurely evening strolls along the paved pathways.",
+        "image": "js/components/images/GregoryLake.png",
+        "lat": 6.9612,
+        "lng": 80.7828
     },
     {
         "id": "2",
-        "name": "Yala National Park",
+        "name": "Victoria Park",
         "category": "Nature",
-        "description": "Famous for its high density of leopards, Yala offers a diverse range of wildlife and ecosystems, from moist monsoon forests to marine wetlands.",
-        "image": "https://images.unsplash.com/photo-1549471013-3364d7320f32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "lat": 6.3683,
-        "lng": 81.5173
+        "description": "A beautifully manicured city park filled with rare, colorful flowers, towering cypress trees, and vibrant bird species. Ideal for a peaceful walk.",
+        "image": "js/components/images/VictoriaPark.png",
+        "lat": 6.9715,
+        "lng": 80.7681
     },
     {
         "id": "3",
-        "name": "Temple of the Sacred Tooth Relic",
-        "category": "Historical",
-        "description": "A Buddhist temple in the city of Kandy. It is located in the royal palace complex of the former Kingdom of Kandy, which houses the relic of the tooth of the Buddha.",
-        "image": "https://images.unsplash.com/photo-1625736417770-b7dc44d2d6ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "lat": 7.2936,
-        "lng": 80.6413
+        "name": "Hakgala Botanical Garden",
+        "category": "Nature",
+        "description": "The second largest botanical garden in Sri Lanka, nestled under the towering Hakgala Rock. Famous for its spectacular rose gardens, orchids, and ferns.",
+        "image": "js/components/images/Hakgala.png",
+        "lat": 6.9292,
+        "lng": 80.8201
     },
     {
         "id": "4",
-        "name": "Galle Face Hotel",
+        "name": "Grand Hotel Nuwara Eliya",
         "category": "Hotels",
-        "description": "Iconic historic hotel in Colombo, situated on the seafront. Known for its colonial charm and beautiful sunset views.",
-        "image": "https://images.unsplash.com/photo-1560347876-aeef00ee58a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "lat": 6.9197,
-        "lng": 79.8454
+        "description": "An iconic Elizabethan-style national heritage hotel built in 1891, offering elegant colonial-era luxury, manicured lawns, and a legendary high tea experience.",
+        "image": "js/components/images/GrandHotel.png",
+        "lat": 6.9723,
+        "lng": 80.7634
     },
     {
         "id": "5",
-        "name": "Nine Arches Bridge",
+        "name": "Queen Elizabeth Post Office",
         "category": "Historical",
-        "description": "A spectacular colonial-era railway bridge located in Demodara, near Ella. Built entirely of brick, rock, and cement without steel.",
-        "image": "https://images.unsplash.com/photo-1546708770-5895bb668d29?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "lat": 6.8767,
-        "lng": 80.0632
+        "description": "A historic red-brick Tudor-style post office constructed in 1894 by the British. One of the oldest and most photogenic buildings in Sri Lanka.",
+        "image": "js/components/images/QueenElizabeth.png",
+        "lat": 6.9725,
+        "lng": 80.7679
     },
     {
         "id": "6",
-        "name": "Horton Plains",
+        "name": "Pedro Tea Estate & Factory",
         "category": "Nature",
-        "description": "A protected area in the central highlands of Sri Lanka covered by montane grassland and cloud forest. Home to World's End.",
-        "image": "https://images.unsplash.com/photo-1526649661456-89b527d82597?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "lat": 6.8016,
-        "lng": 80.8060
+        "description": "A historic tea estate established in 1885 where you can walk through rolling green tea fields, watch pickers at work, and tour the traditional processing factory.",
+        "image": "js/components/images/PedroTeaEstate.png",
+        "lat": 6.9789,
+        "lng": 80.8094
+    },
+    {
+        "id": "7",
+        "name": "Lover's Leap Waterfall",
+        "category": "Nature",
+        "description": "A breathtaking 30-meter high waterfall cascading down rugged rock cliffs. Surrounded by lush tea plantations, it is steeped in tragic romantic folklore.",
+        "image": "js/components/images/Lover'sLeap.png",
+        "lat": 6.9701,
+        "lng": 80.7958
+    },
+    {
+        "id": "8",
+        "name": "Purana Kadadora Viharaya",
+        "category": "Historical",
+        "description": "The ruins of Vihara still can be seen with diminishing of water level of Kotmale Reservoir but the sight is very rare (most probably January, February, March and April months). With the rain with rising water it again submerged into Kothmale reservoir. So if you heard it has emerged back don't forget to go and see it. Because you may get a chance once in several years.",
+        "image": "js/components/images/PuranaKadadora.png",
+        "lat": 7.0427,
+        "lng": 80.6482
+    },
+    {
+        "id": "9",
+        "name": "Single Tree Temple",
+        "category": "Historical",
+        "description": "Beautiful Temple situated on the top hill in Nuwara Eliya. It is only 5-10 minutes' drive from Gregory Park. You can see a great view from the temple. And also, you can see Sri Pada (Adam's Peak).",
+        "image": "js/components/images/SingleTreeTemple.png",
+        "lat": 6.9582,
+        "lng": 80.7712
+    },
+    {
+        "id": "10",
+        "name": "Dehadu Kadulla - Kothmale",
+        "category": "Historical",
+        "description": "This is an ancient entrance to the Maya Rata from Ruhunu Rata. Only a part of the entrance and pathway is remaining today.",
+        "image": "js/components/images/DehaduKadulla.png",
+        "lat": 7.0378,
+        "lng": 80.6094
     }
 ]
