@@ -78,10 +78,6 @@ export const renderDetailPage = (id) => {
                     <h1 class="detail-title">${attraction.name}</h1>
                     <div class="detail-meta">
                         <span class="tag tag-status" style="position:static;">${attraction.category}</span>
-                        <div style="font-size: var(--font-size-xs); color: var(--color-text-secondary); font-weight: 700; display: inline-flex; align-items: center; gap: 2px;">
-                            <svg class="star-icon" width="12" height="12" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                            <span>4.8 (120 reviews)</span>
-                        </div>
                     </div>
                 </div>
             </div>

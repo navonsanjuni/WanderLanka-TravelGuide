@@ -13,7 +13,7 @@ const MIME_TYPES = {
     '.jpg': 'image/jpeg',
     '.svg': 'image/svg+xml'
 };
-
+ 
 const server = http.createServer((req, res) => {
     let filePath = '.' + req.url;
     if (filePath === './') {

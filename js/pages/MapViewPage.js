@@ -23,19 +23,6 @@ export const renderMapViewPage = () => {
 
     wrapper.appendChild(BottomNav('/map'));
 
-    // Dynamic Mock ratings for attractions
-    const getStats = (id) => {
-        const stats = {
-            "1": { rating: "4.9", reviews: "1.8k" },
-            "2": { rating: "4.8", reviews: "2.5k" },
-            "3": { rating: "4.7", reviews: "1.9k" },
-            "4": { rating: "4.6", reviews: "1.2k" },
-            "5": { rating: "4.9", reviews: "2.1k" },
-            "6": { rating: "4.8", reviews: "1.4k" }
-        };
-        return stats[id] || { rating: "4.7", reviews: "800" };
-    };
-
     let mapInstance = null;
     let markersMap = {};
     let activeFilter = 'All';
@@ -83,13 +70,11 @@ export const renderMapViewPage = () => {
         const filtered = filterAttractions(attractions);
 
         filtered.forEach(attr => {
-            const stats = getStats(attr.id);
             const popupHtml = `
                 <div style="font-family: var(--font-family); max-width: 200px;">
                     <img src="${attr.image}" style="width:100%; height:100px; object-fit:cover; border-radius:4px; margin-bottom:6px;">
                     <h4 style="margin:0 0 2px 0; font-weight:700; font-size:14px;">${attr.name}</h4>
-                    <p style="margin:0 0 6px 0; font-size:11px; color:#F59E0B; font-weight:700;">★ ${stats.rating} (${stats.reviews} reviews)</p>
-                    <a href="#/attraction/${attr.id}" style="color:var(--color-primary); font-weight:600; font-size:12px; text-decoration:none;">View Details &rarr;</a>
+                    <a href="#/attraction/${attr.id}" style="color:var(--color-primary); font-weight:600; font-size:12px; text-decoration:none; display: inline-block; margin-top: 4px;">View Details &rarr;</a>
                 </div>
             `;
 
@@ -159,7 +144,6 @@ export const renderMapViewPage = () => {
         const scrollContainer = rightPanel.querySelector('.map-list-scroll');
 
         filtered.forEach(attr => {
-            const stats = getStats(attr.id);
             let distanceStr = 'Nearby';
             if (userLocation) {
                 const dist = calculateDistance(userLocation.lat, userLocation.lng, attr.lat, attr.lng);
@@ -175,10 +159,6 @@ export const renderMapViewPage = () => {
                 <img src="${attr.image}" class="map-list-img" alt="${attr.name}">
                 <div class="map-list-details">
                     <div class="map-list-name">${attr.name}</div>
-                    <div class="map-list-rating">
-                        <svg class="star-icon" width="12" height="12" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                        <span>${stats.rating} (${stats.reviews} reviews)</span>
-                    </div>
                     <div class="map-list-meta">${distanceStr} &bull; ${attr.category}</div>
                 </div>
             `;
@@ -238,7 +218,6 @@ export const renderMapViewPage = () => {
         }
 
         filtered.forEach(attr => {
-            const stats = getStats(attr.id);
             let distanceStr = 'Nearby';
             if (userLocation) {
                 const dist = calculateDistance(userLocation.lat, userLocation.lng, attr.lat, attr.lng);
@@ -254,10 +233,6 @@ export const renderMapViewPage = () => {
                 <img src="${attr.image}" class="map-list-img" alt="${attr.name}">
                 <div class="map-list-details">
                     <div class="map-list-name">${attr.name}</div>
-                    <div class="map-list-rating">
-                        <svg class="star-icon" width="12" height="12" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                        <span>${stats.rating} (${stats.reviews} reviews)</span>
-                    </div>
                     <div class="map-list-meta">${distanceStr} &bull; ${attr.category}</div>
                 </div>
             `;
