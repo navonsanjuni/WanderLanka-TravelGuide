@@ -18,7 +18,7 @@
     gap: var(--spacing-sm);
     color: var(--color-primary);
     font-weight: 700;
-    font-size: var(--font-size-lg);
+    font-size: 1.4rem;
 }
 
 .brand-icon {
@@ -346,6 +346,7 @@
     right: var(--spacing-md);
     width: 36px;
     height: 36px;
+    min-height: 36px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.95);
     display: flex;

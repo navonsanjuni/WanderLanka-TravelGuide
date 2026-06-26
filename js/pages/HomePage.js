@@ -43,7 +43,6 @@ export const renderHomePage = () => {
         const hero = createEl('div', { className: 'hero-container' });
         hero.innerHTML = `
             <div class="hero-content">
-                <span class="trending-badge">Little England of Sri Lanka</span>
                 <h1 class="hero-title">Explore Misty<br>Nuwara Eliya.</h1>
                 <p class="hero-desc">Experience the breathtaking tea gardens, historic colonial estates, and roaring waterfalls with curated local maps, real-time distance tracking, and offline navigation.</p>
                 <div class="hero-actions">
