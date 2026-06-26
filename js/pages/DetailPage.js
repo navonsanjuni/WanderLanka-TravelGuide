@@ -86,7 +86,7 @@ export const renderDetailPage = (id) => {
         // Favorite Save action directly beside title section
         const favBtnWrapper = createEl('div', { style: 'margin-top: 4px;' });
         const favBtn = FavoriteButton(attraction.id);
-        favBtn.className = 'detail-save-btn';
+        favBtn.classList.add('detail-save-btn');
         favBtnWrapper.appendChild(favBtn);
         detailHeader.firstElementChild.appendChild(favBtnWrapper);
 

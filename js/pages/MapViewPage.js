@@ -166,7 +166,7 @@ export const renderMapViewPage = () => {
             // Favorite button directly inside card action area
             const favContainer = createEl('div', { className: 'map-list-actions' });
             const favBtn = FavoriteButton(attr.id);
-            favBtn.className = 'map-list-fav';
+            favBtn.classList.add('map-list-fav');
             favBtn.addEventListener('click', (e) => e.stopPropagation());
             favContainer.appendChild(favBtn);
             item.appendChild(favContainer);
@@ -239,7 +239,7 @@ export const renderMapViewPage = () => {
 
             const favContainer = createEl('div', { className: 'map-list-actions' });
             const favBtn = FavoriteButton(attr.id);
-            favBtn.className = 'map-list-fav';
+            favBtn.classList.add('map-list-fav');
             favBtn.addEventListener('click', (e) => e.stopPropagation());
             favContainer.appendChild(favBtn);
             item.appendChild(favContainer);

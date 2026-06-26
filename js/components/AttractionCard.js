@@ -46,7 +46,7 @@ export const AttractionCard = (attraction, userLocation) => {
     
     // Favorite Button
     const favBtn = FavoriteButton(attraction.id);
-    favBtn.className = 'card-favorite-btn';
+    favBtn.classList.add('card-favorite-btn');
     // Prevent default so clicking favorite doesn't navigate to detail page
     favBtn.addEventListener('click', (e) => e.preventDefault());
     imgWrapper.appendChild(favBtn);
