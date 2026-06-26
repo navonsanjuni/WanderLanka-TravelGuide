@@ -1,6 +1,6 @@
-const FAVORITES_KEY = 'wanderlanka_favorites';
-const PROFILE_KEY = 'wanderlanka_profile';
-const CATEGORY_KEY = 'wanderlanka_category';
+const FAVORITES_KEY = 'nuwaraexplorer_favorites';
+const PROFILE_KEY = 'nuwaraexplorer_profile';
+const CATEGORY_KEY = 'nuwaraexplorer_category';
 
 const DEFAULT_PROFILE = {
     name: 'Traveler',
@@ -8,8 +8,8 @@ const DEFAULT_PROFILE = {
     travelStyle: 'Nature',
     mapsPref: 'gmaps', // 'gmaps' or 'geo'
     locationMode: 'simulated', // 'browser' or 'simulated'
-    simulatedLat: 6.9271, // Colombo Lat
-    simulatedLng: 79.8612, // Colombo Lng
+    simulatedLat: 6.9687, // Nuwara Eliya Lat
+    simulatedLng: 80.7872, // Nuwara Eliya Lng
     theme: 'light'
 };
 

@@ -1,4 +1,4 @@
-# WanderLanka - Local Tour & Travel Web Guide
+# Nuwara Explorer - Local Tour & Travel Web Guide
 
 ## Framework
 This project is built using **Vanilla JavaScript (ES6 Modules)**. It implements a custom Single Page Application (SPA) architecture utilizing a hash-based router (`#/`, `#/favorites`, `#/attraction/:id`), a centralized state manager, and a component-based structure to emulate modern JS frameworks like React/Vue without any dependencies.

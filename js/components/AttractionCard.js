@@ -2,6 +2,20 @@ import { createEl } from '../utils/dom.js';
 import { FavoriteButton } from './FavoriteButton.js';
 import { calculateDistance } from '../utils/distance.js';
 
+const attractionImages = {
+    'sigiriya rock fortress': 'js/components/images/Sigiriya.png',
+    'yala national park': 'js/components/images/YalaPark.png',
+    'temple of the sacred tooth relic': 'js/components/images/TempleOfTooth.png',
+    'galle face hotel': 'js/components/images/GalleFaceHotel.png',
+    'nine arches bridge': 'js/components/images/NineArches.png',
+    'horton plains': 'js/components/images/HortanPlains.png'
+};
+
+const getAttractionImage = (attraction) => {
+    const nameKey = attraction?.name?.trim().toLowerCase();
+    return attractionImages[nameKey] || attraction?.image || '';
+};
+
 export const AttractionCard = (attraction, userLocation) => {
     const card = createEl('a', { 
         className: 'card', 
@@ -9,7 +23,7 @@ export const AttractionCard = (attraction, userLocation) => {
     });
     
     const imgWrapper = createEl('div', { className: 'card-img-wrapper' });
-    imgWrapper.innerHTML = `<img src="${attraction.image}" alt="${attraction.name}" class="card-img" loading="lazy">`;
+    imgWrapper.innerHTML = `<img src="${getAttractionImage(attraction)}" alt="${attraction.name}" class="card-img" loading="lazy">`;
     
     // Add Distance Overlay Badge if location is available
     if (userLocation) {

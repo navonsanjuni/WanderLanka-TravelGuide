@@ -19,7 +19,7 @@ export const Header = (title = 'Explore') => {
         <div class="header-logo-section">
             <a href="#/" class="header-brand">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="brand-icon"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
-                <span>WanderLanka</span>
+                <span>Nuwara Explorer</span>
             </a>
         </div>
         
